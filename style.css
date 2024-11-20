@@ -1,0 +1,104 @@
+:root {
+  --bg-creme: #cbc0a9;
+  --font-color1: #6d695f;
+  --font-color2: white;
+  --page-color: #888c96;
+  --navbar-color: #34373D;
+
+}
+
+
+body {
+  box-sizing: border-box;
+  background-color: var(--page-color);
+  color: var(--font-color1);
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.img-menu {
+  width: 200px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.menu-ativo {
+  background-color: var(--bg-creme);
+  border-radius: 5%;
+}
+
+.footer {
+  padding: 30px calc(10% + 2vw);
+  background-color: var(--font-color2);
+  border-top: 2px solid;
+  height: 150px;
+}
+
+.footer img {
+  height: 100px;
+}
+
+h1 {
+  position: relative;
+}
+
+h1:after {
+  content: "";
+  background-image: linear-gradient(120deg, #cbc0a9, #d56f10, #34373D);
+  width: 90%;
+  height: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) skew(-50deg);
+}
+
+.bi {
+  font-size: 50px;
+}
+
+.card {
+  box-sizing: border-box;
+}
+
+.animation1 :hover {
+  background-color: var(--bg-creme);
+  transition: 0.5s;
+  border-radius: 5%;
+  color: var(--font-color2);
+}
+
+.animation2 :hover {
+  background-color: var(--bg-creme);
+  border-color: white;
+  transition: 0.2s;
+  color: var(--font-color2);
+}
+
+body nav {
+  background-color: var(--navbar-color);
+}
+
+body nav .icon-cor {
+  color: var(--font-color1);
+}
+
+.bg-font-color1 {
+  background-color: var(--font-color1);
+}
+
+.carousel-text-color {
+  color: var(--navbar-color);
+  background-color: rgba(203, 192, 169, 0.7);
+}
+
+.carousel {
+    max-width: 900px; 
+    margin: auto;
+}
