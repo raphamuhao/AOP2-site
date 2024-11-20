@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+  <script src="assets/js/script_contato.js" defer></script>
+  <title>Musicando Momentos - Contato</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-light navbar-expand-md">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex ">
+        <img src="assets/img/logo_resumida.png" alt="Musicando Momentos" class="img-menu">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNavbar">
+        <div class="navbar-nav ms-auto align-items-end animation1">
+          <a href="/index.html" class="nav-link txt-menu">Principal</a>
+          <a href="/contato.html" class="nav-link txt-menu menu-ativo">Contato</a>
+          <a href="/generos-musicais.html" class="nav-link txt-menu">Gêneros Musicais</a>
+          <a href="/artistas-destaque.html" class="nav-link txt-menu">Artistas em Destaque</a>
+          <a href="/tendencias.html" class="nav-link txt-menu">Tendências do Momento</a>
+        </div>
+
+        <div>
+          <div class="d-none d-lg-block">
+            <div class="row ms-3">
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.facebook.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-facebook fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.instagram.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-instagram fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.linkedin.com.br" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-linkedin fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.twitter.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-twitter fs-3 icon-cor"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapse d-lg-none text-end" id="redesSociaisCollapse">
+            <div class="row ms-3">
+              <div class="col-6">
+                <a href="https://www.facebook.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-facebook fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-instagram fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.linkedin.com.br" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-linkedin fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.twitter.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-twitter fs-3 icon-cor"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="animation1 align-items-end navbar-nav">
+            <a href="#" class="d-lg-none mb-3 nav-link txt-menu" data-bs-toggle="collapse"
+              data-bs-target="#redesSociaisCollapse" aria-expanded="false" aria-controls="redesSociaisCollapse">
+              Redes Sociais
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <div class="container bg-white border border-white my-5 shadow-lg">
+    <div class="row">
+      <div class="col-12 col-lg-8 col-xl-6 mx-auto text-center">
+        <h1 class="display-5 ">Contato</h1>
+        <hr>
+      </div>
+    </div>
+    <div class="row m-3 text-center">
+      <div class="col-sm-12 col-md-4 border border-white bg-font-color1">
+        <i class="bi bi-envelope mx-2 text-white align-middle"></i>
+        <a href="mailto:teste@teste.com" class="text-white">teste@teste.com</a>
+      </div>
+      <div class="col-sm-12 col-md-4 border border-white bg-font-color1">
+        <i class="bi bi-geo-alt mx-2 text-white align-middle"></i>
+        <p class="d-inline text-white text-center">Vitória - ES</p>
+      </div>
+      <div class="col-sm-12 col-md-4 border border-white bg-font-color1">
+        <i class=" w-50 bi bi-telephone mx-2 text-white align-middle"></i>
+        <a href="tel:27999998888" class="text-white">(27) 99999-8888</a>
+      </div>
+    </div>
+    <form action="mailto:teste@teste.com" name="contato" method="POST" class="needs-validation" novalidate>
+      <div class="m-3">
+      <div class="form-floating mb-3">
+        <input type="text" name="nome" id="nome" class="form-control" placeholder=" "
+          onchange="this.value = this.value.trim()" required>
+        <label for="nome" class="form-label">Nome Completo</label>
+        <div class="invalid-feedback">Informe o Nome corretamente.</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="email" name="email" id="email" class="form-control" placeholder=" " required>
+            <label for="email" class="form-label">E-mail</label>
+            <div class="invalid-feedback">Informe o E-mail corretamente.</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="tel" name="tel" id="telefone" class="form-control" placeholder=" " maxlength="15"
+              pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>
+            <label for="tel" class="form-label">Telefone</label>
+            <div class="invalid-feedback">Informe o Telefone corretamente.</div>
+          </div>
+        </div>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea name="msg" id="mensagem" class="form-control" placeholder=" "
+          onchange="this.value = this.value.trim()" required></textarea>
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <div class="invalid-feedback">Escreva sua mensagem.</div>
+      </div>
+      <input type="submit" value="Enviar" class="btn btn-warning my-3">
+        </div>
+    </form>
+  </div>
+
+  <div class="flex-grow-1">
+    
+  </div>
+  
+  <footer class="footer d-flex h-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12 ms-5">
+          <img src="assets/img/logo-uvv/logo_uvv.png" alt="Universidade Vila Velha"
+          class="w-50">
+        </div>
+        <div class="col ms-5">
+          Copyright &copy; 2024 <br>
+          Universidade Vila Velha <br>
+          Desenvolvido por Raphaela e Samuel, todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

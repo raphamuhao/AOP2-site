@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Metadados e links de estilos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Icones do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Estilo customizado -->
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Título da página -->
+  <title>Musicando Momentos - Tendências do Momento</title>
+</head>
+
+<body>
+  <!-- Barra de navegacao -->
+  <nav class="navbar navbar-light navbar-expand-md">
+    <div class="container">
+      <!-- Logotipo -->
+      <a href="index.html" class="navbar-brand d-flex ">
+        <img src="assets/img/logo_resumida.png" alt="Musicando Momentos" class="img-menu">
+      </a>
+      <!-- Botao para navegação colapsada em telas pequenas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Itens do menu -->
+      <div class="collapse navbar-collapse" id="menuNavbar">
+        <div class="navbar-nav ms-auto align-items-end animation1">
+          <a href="/index.html" class="nav-link txt-menu">Principal</a>
+          <a href="/contato.html" class="nav-link txt-menu">Contato</a>
+          <a href="/generos-musicais.html" class="nav-link txt-menu">Gêneros Musicais</a>
+          <a href="/artistas-destaque.html" class="nav-link txt-menu">Artistas em Destaque</a>
+          <a href="/tendencias.html" class="nav-link txt-menu menu-ativo">Tendências do Momento</a>
+        </div>
+
+        <!-- Links para redes sociais -->
+        <div>
+          <div class="d-none d-lg-block">
+            <div class="row ms-3">
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.facebook.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-facebook fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.instagram.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-instagram fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.linkedin.com.br" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-linkedin fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-xl-3 col-lg-6 animation2">
+                <a href="https://www.twitter.com" class="text-decoration-none" target="_blank"><i
+                    class="bi bi-twitter fs-3 icon-cor"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Redes sociais colapsadas para telas menores -->
+          <div class="collapse d-lg-none text-end" id="redesSociaisCollapse">
+            <div class="row ms-3">
+              <div class="col-6">
+                <a href="https://www.facebook.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-facebook fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.instagram.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-instagram fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.linkedin.com.br" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-linkedin fs-3 icon-cor"></i></a>
+              </div>
+              <div class="col-6">
+                <a href="https://www.twitter.com" class="text-decoration-none animation2" target="_blank"><i
+                    class="bi bi-twitter fs-3 icon-cor"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Botao para exibir redes sociais em telas pequenas -->
+          <div class="animation1 align-items-end navbar-nav">
+            <a href="#" class="d-lg-none mb-3 nav-link txt-menu" data-bs-toggle="collapse"
+              data-bs-target="#redesSociaisCollapse" aria-expanded="false" aria-controls="redesSociaisCollapse">
+              Redes Sociais
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteudo principal -->
+  <div class="container bg-white border border-white my-5 shadow-lg">
+    <h1 class="lead fs-1 text-center my-5">Tendências do Momento</h1>
+
+    <div class="container my-5">
+      <h2 class="text-center">Destaques Atuais</h2>
+      <div class="row m-3 gy-4 animation2 border-box">
+
+        <!-- Card Burna Boy -->
+          <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+            <img src="assets/img/burna-boy.jpg" class="card-img-top" alt="Burna Boy">
+            <h5 class="card-title card-header text-center">Burna Boy</h5>
+            <div class="card-body">              
+              <p class="card-text">Ícone do Afrobeat, Burna Boy está dominando as paradas globais com seu som único e
+                envolvente.</p>
+            </div>
+          </div>
+
+        <!-- Card Happier Than Ever -->
+          <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+            <img src="assets/img/happier-than-ever.jpg" class="card-img-top" alt="Álbum Happier Than Ever">
+            <h5 class="card-title card-header text-center">Happier Than Ever</h5>
+            <div class="card-body">              
+              <p class="card-text">O segundo álbum de Billie Eilish continua encantando fãs com letras profundas e
+                arranjos únicos.</p>
+            </div>
+          </div>
+
+        <!-- Card Trilha de Barbie -->
+          <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+            <img src="assets/img/barbie-soundtrack.jpg" class="card-img-top" alt="Trilha sonora de Barbie">
+            <h5 class="card-title card-header text-center">Trilha da Barbie</h5>
+            <div class="card-body">
+              <p class="card-text">Com artistas como Dua Lipa e Nicki Minaj, a trilha sonora de Barbie é uma explosão de
+                pop e diversão.</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+<div class="row">
+    <div class="container col mx-5 mb-5">
+      <!-- Generos em Alta -->
+      <section class="my-4">
+        <h2 class="fs-3">Gêneros em Alta</h2>
+        <ul>
+          <li>
+            <strong>Afrobeats:</strong> Ritmos africanos que estão conquistando o mundo com artistas como
+
+            <em>Burna Boy</em> e Rema.
+          </li>
+          <li><strong>Lo-fi:</strong> Popular para concentração e relaxamento.</li>
+          <li><strong>K-pop:</strong> Grupos como BTS e BLACKPINK continuam dominando globalmente.</li>
+        </ul>
+      </section>
+
+      <!-- Albuns em Destaque -->
+      <section class="my-4">
+        <h2 class="fs-3">Álbuns de Destaque</h2>
+        <ul>
+          <li>
+            <strong>"Happier Than Ever" – Billie Eilish:</strong> Reflexões profundas com som inovador e ao mesmo tempo
+            característico.
+
+          </li>
+          <li><strong>"Renaissance" – Beyoncé:</strong> Celebração da cultura dance e house.</li>
+          <li><strong>"Subtract" – Ed Sheeran:</strong> Harmonias emocionantes e introspectivas.</li>
+        </ul>
+      </section>
+
+      <!-- Top Hits Globais -->
+      <section class="my-4">
+        <h2 class="fs-3">Top Hits Globais</h2>
+        <ul>
+          <li>
+            <strong>"What Was I Made For?" – Billie Eilish:</strong> Parte da trilha do filme <em>Barbie</em>, emociona
+            em
+            melodia e conexão com o filme, principalmente durante o carrossel de imagens.
+
+          </li>
+          <li><strong>"Flowers" – Miley Cyrus:</strong> Hino de empoderamento feminino.</li>
+          <li><strong>"Dance The Night" – Dua Lipa:</strong> Sucesso pop vibrante.</li>
+        </ul>
+      </section>
+      <h3 class="text-center p-3">Confira a nossa Playlist no Spotify :)</h3>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4yPHzNbANpfAL5UZWEd6Hs?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- Rodape -->
+  <footer class="footer d-flex h-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12 ms-5">
+          <img src="assets/img/logo-uvv/logo_uvv.png" alt="Universidade Vila Velha" class="w-50">
+        </div>
+        <div class="col ms-5">
+          Copyright &copy; 2024 <br>
+          Universidade Vila Velha <br>
+          Desenvolvido por Raphaela e Samuel, todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

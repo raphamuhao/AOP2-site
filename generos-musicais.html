@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Metadados e links de estilos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Icones do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Estilo customizado -->
+  <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Título da página -->
+  <title>Musicando Momentos - Gêneros Musicais</title>
+</head>
+
+  <body>
+    <!-- Barra de navegacao -->
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container">
+        <!-- Logotipo -->
+        <a href="index.html" class="navbar-brand d-flex ">
+          <img src="assets/img/logo_resumida.png" alt="Musicando Momentos" class="img-menu">
+        </a>
+        <!-- Botao para navegação colapsada em telas pequenas -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Itens do menu -->
+        <div class="collapse navbar-collapse" id="menuNavbar">
+          <div class="navbar-nav ms-auto align-items-end animation1">
+            <a href="/index.html" class="nav-link txt-menu">Principal</a>
+            <a href="/contato.html" class="nav-link txt-menu">Contato</a>
+            <a href="/generos-musicais.html" class="nav-link txt-menu menu-ativo">Gêneros Musicais</a>
+            <a href="/artistas-destaque.html" class="nav-link txt-menu">Artistas em Destaque</a>
+            <a href="/tendencias.html" class="nav-link txt-menu">Tendências do Momento</a>
+          </div>
+
+          <!-- Links para redes sociais -->
+          <div>
+            <div class="d-none d-lg-block">
+              <div class="row ms-3">
+                <div class="col-xl-3 col-lg-6 animation2">
+                  <a href="https://www.facebook.com" class="text-decoration-none" target="_blank"><i
+                      class="bi bi-facebook fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-xl-3 col-lg-6 animation2">
+                  <a href="https://www.instagram.com" class="text-decoration-none" target="_blank"><i
+                      class="bi bi-instagram fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-xl-3 col-lg-6 animation2">
+                  <a href="https://www.linkedin.com.br" class="text-decoration-none" target="_blank"><i
+                      class="bi bi-linkedin fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-xl-3 col-lg-6 animation2">
+                  <a href="https://www.twitter.com" class="text-decoration-none" target="_blank"><i
+                      class="bi bi-twitter fs-3 icon-cor"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Redes sociais colapsadas para telas menores -->
+            <div class="collapse d-lg-none text-end" id="redesSociaisCollapse">
+              <div class="row ms-3">
+                <div class="col-6">
+                  <a href="https://www.facebook.com" class="text-decoration-none animation2" target="_blank"><i
+                      class="bi bi-facebook fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-6">
+                  <a href="https://www.instagram.com" class="text-decoration-none animation2" target="_blank"><i
+                      class="bi bi-instagram fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-6">
+                  <a href="https://www.linkedin.com.br" class="text-decoration-none animation2" target="_blank"><i
+                      class="bi bi-linkedin fs-3 icon-cor"></i></a>
+                </div>
+                <div class="col-6">
+                  <a href="https://www.twitter.com" class="text-decoration-none animation2" target="_blank"><i
+                      class="bi bi-twitter fs-3 icon-cor"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Botao para exibir redes sociais em telas pequenas -->
+            <div class="animation1 align-items-end navbar-nav">
+              <a href="#" class="d-lg-none mb-3 nav-link txt-menu" data-bs-toggle="collapse"
+                data-bs-target="#redesSociaisCollapse" aria-expanded="false" aria-controls="redesSociaisCollapse">
+                Redes Sociais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Conteudo Principal -->
+  <div class="container bg-white border border-white my-5 shadow-lg">
+    <h1 class="fs-1 text-center my-5">Gêneros Musicais</h1>
+    <p class="lead text-center m-3">Explore os principais gêneros musicais e seus destaques.</p>
+
+    <div class="row gy-4 m-5 animation2 border-box">
+      <!-- Rock -->
+        <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+          <img src="https://img.freepik.com/fotos-gratis/arte-digital-para-musica-e-som_23-2151065012.jpg" class="card-img-top" alt="Imagem representativa de Rock">
+          <h5 class="card-header text-center card-title">Rock</h5>
+          <div class="card-body">
+            <p class="card-text">O Rock surgiu nos anos 1950 e continua a ser um dos gêneros mais populares, com subgêneros como Hard Rock e Indie Rock.</p>
+            <p><strong>Artistas:</strong> The Beatles, Queen, Nirvana.</p>
+          </div>
+        </div>
+
+      <!-- Pop -->
+        <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+          <img src="https://img.freepik.com/fotos-gratis/retrato-de-arte-digital-de-pessoa-ouvindo-musica-em-fones-de-ouvido_23-2151065141.jpg" class="card-img-top" alt="Imagem representativa de Pop">
+          <h5 class="card-header text-center card-title">Pop</h5>
+          <div class="card-body">
+            <p class="card-text">Com melodias cativantes e ritmos dançantes, o Pop domina as paradas globais.</p>
+            <p><strong>Artistas:</strong> Michael Jackson, Madonna, Taylor Swift, Sabrina Carpenter.</p>
+          </div>
+        </div>
+
+      <!-- Jazz -->
+        <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+          <img src="https://img.freepik.com/fotos-gratis/globo-3d-realista-com-elementos-musicais_23-2151500733.jpg" class="card-img-top" alt="Imagem representativa de Jazz">
+          <h5 class="card-header text-center card-title">Jazz</h5>
+          <div class="card-body">
+            <p class="card-text">Um estilo sofisticado que destaca improvisação e expressão.</p>
+            <p><strong>Artistas:</strong> Louis Armstrong, Miles Davis, Norah Jones.</p>
+          </div>
+        </div>
+
+      <!-- Hip Hop -->
+        <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+          <img src="https://img.freepik.com/fotos-gratis/conceito-de-musica-em-estilo-de-desenho-animado_23-2151056795.jpg" class="card-img-top" alt="Imagem representativa de Hip Hop">
+          <h5 class="card-header text-center card-title">Hip Hop</h5>
+          <div class="card-body">
+            <p class="card-text">Desde suas raízes no Bronx até o mainstream, o Hip Hop é uma voz poderosa.</p>
+            <p><strong>Artistas:</strong> Tupac, Jay-Z, Kendrick Lamar.</p>
+          </div>
+        </div>
+
+      <!-- Musica Classica -->
+        <div class="card col-8 col-sm-7 col-md-5 col-lg-4 col-xl-3 mx-auto m-3 shadow-lg">
+          <img src="https://img.freepik.com/fotos-gratis/belamente-ilustrar-um-instrumento-musical_23-2151103377.jpg" class="card-img-top" alt="Imagem representativa de Música Clássica">
+          <h5 class="card-header text-center card-title">Música Clássica</h5>
+          <div class="card-body">
+            <p class="card-text">Obras orquestrais que resistem ao tempo.</p>
+            <p><strong>Compositores:</strong> Beethoven, Mozart, Bach.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<!-- Rodape -->
+  <footer class="footer d-flex h-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12 ms-5">
+          <img src="assets/img/logo-uvv/logo_uvv.png" alt="Universidade Vila Velha" class="w-50">
+        </div>
+        <div class="col ms-5">
+          Copyright &copy; 2024 <br>
+          Universidade Vila Velha <br>
+          Desenvolvido por Raphaela e Samuel, todos os direitos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
