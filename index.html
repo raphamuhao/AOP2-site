@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <!-- Barra de Navegação -->
   <nav class="navbar navbar-light navbar-expand-md bg-white shadow-sm">
     <div class="container">
       <a href="index.html" class="navbar-brand d-flex align-items-center">
@@ -28,21 +29,26 @@
           <li class="nav-item"><a href="artistas-destaque.html" class="nav-link">Artistas em Destaque</a></li>
           <li class="nav-item"><a href="tendencias.html" class="nav-link">Tendências do Momento</a></li>
         </ul>
+        <ul class="navbar-nav ms-3 d-none d-md-flex">
+          <li class="nav-item"><a href="https://www.facebook.com" target="_blank" class="nav-link"><i class="bi bi-facebook fs-4"></i></a></li>
+          <li class="nav-item"><a href="https://www.instagram.com" target="_blank" class="nav-link"><i class="bi bi-instagram fs-4"></i></a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com.br" target="_blank" class="nav-link"><i class="bi bi-linkedin fs-4"></i></a></li>
+          <li class="nav-item"><a href="https://www.twitter.com" target="_blank" class="nav-link"><i class="bi bi-twitter fs-4"></i></a></li>
+        </ul>
       </div>
     </div>
   </nav>
 
+  <!-- Conteúdo Principal -->
   <div class="container bg-white border border-white my-5 shadow-lg">
     <h1 class="text-center my-5">Bem-vindo ao Musicando Momentos!</h1>
     <div class="row m-3">
       <div class="col-md-6">
         <p>Descubra o universo fascinante da música! Aqui, exploramos os principais gêneros, celebramos artistas icônicos e acompanhamos as últimas tendências musicais. De clássicos atemporais a hits modernos, nosso objetivo é conectar você à diversidade sonora do mundo.</p>
         <h4>Motivação</h4>
-        <p>A música sempre foi uma força transformadora, capaz de emocionar, inspirar e conectar pessoas. Motivados por essa capacidade única, criamos o Musicando Momentos para explorar como a música marca momentos importantes da vida, desde celebrações até introspecções.</p>
+        <p>A música sempre foi uma força transformadora, capaz de emocionar, inspirar e conectar pessoas. Motivados por essa capacidade única, criamos o Musicando Momentos para explorar como a música marca momentos importantes da vida.</p>
         <h4>Atuação</h4>
-        <p>O Musicando Momentos atua como uma plataforma informativa e interativa, abordando diferentes aspectos do mundo musical.</p>
-        <h4>História</h4>
-        <p>O Musicando Momentos nasceu da paixão compartilhada de seus criadores pela música. Fundado em 2024, o blog foi idealizado com o propósito de levar conhecimento e experiências musicais para pessoas de todas as idades.</p>
+        <p>O Musicando Momentos atua como uma plataforma informativa e interativa, abordando diferentes aspectos do mundo musical. Nosso blog é dividido em seções que exploram gêneros musicais, artistas influentes e as últimas tendências.</p>
       </div>
       <div class="col-md-6 mb-3">
         <img class="img-thumbnail" src="assets/img/logo.png" alt="Logo Musicando Momentos">
@@ -50,16 +56,59 @@
     </div>
   </div>
 
+  <!-- Carrossel -->
+  <div class="container bg-white border border-white my-5 shadow-lg">
+    <h1 class="lead fs-1 text-center">Destaques</h1>
+    <div id="destaquesCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="generos-musicais.html">
+            <img src="https://img.freepik.com/vetores-gratis/diferentes-instrumentos-musicais-em-poster_1308-72359.jpg" class="d-block w-100" alt="Gêneros Musicais">
+            <div class="carousel-caption">
+              <h5>Gêneros Musicais</h5>
+              <p>Exploramos estilos musicais, desde o Rock ao Jazz.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="artistas-destaque.html">
+            <img src="https://inmagazine.ig.com.br/wp-content/uploads/2023/11/post_35863.jpeg" class="d-block w-100" alt="Artistas em Destaque">
+            <div class="carousel-caption">
+              <h5>Artistas em Destaque</h5>
+              <p>Conheça a trajetória de artistas que marcaram a história.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="tendencias.html">
+            <img src="https://img.freepik.com/fotos-premium/instrumento-musical-de-arte-para-festival-de-musica_41926-866.jpg" class="d-block w-100" alt="Tendências do Momento">
+            <div class="carousel-caption">
+              <h5>Tendências do Momento</h5>
+              <p>Fique por dentro das novidades e músicas em alta!</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#destaquesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#destaquesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
   <footer class="footer d-flex h-auto">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-12 ms-5">
+        <div class="col-md-4 col-12">
           <img src="assets/img/logo-uvv/logo_uvv.png" alt="Universidade Vila Velha" class="w-50">
         </div>
-        <div class="col ms-5">
-          Copyright &copy; 2024 <br>
-          Universidade Vila Velha <br>
-          Desenvolvido por Raphaela e Samuel, todos os direitos reservados.
+        <div class="col">
+          <p>Copyright &copy; 2024<br>Universidade Vila Velha<br>Desenvolvido por Raphaela e Samuel, todos os direitos reservados.</p>
         </div>
       </div>
     </div>
